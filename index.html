@@ -1,27 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fullscreen Image</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            background-color: #000;
-        }
-        img {
-            display: block;
-            width: auto;
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Image Gallery with Title Bars</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .title-bar {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      font-size: 2em;
+    }
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+    }
+  </style>
 </head>
 <body>
-    <img src="design.png" alt="Fullscreen Design">
+  <!-- First image -->
+  <img src="home.png" alt="Home">
+  
+  <!-- Title bar and image for Famillie Mediation -->
+  <div class="title-bar">Famillie Mediation</div>
+  <img src="famillie_mediation.png" alt="Famillie Mediation">
+  
+  <!-- Title bar and image for Coaching -->
+  <div class="title-bar">Coaching</div>
+  <img src="coaching.png" alt="Coaching">
+  
+  <!-- Title bar and image for Training -->
+  <div class="title-bar">Training</div>
+  <img src="training.png" alt="Training">
+  
+  <!-- Title bar and image for Vacatures -->
+  <div class="title-bar">Vacatures</div>
+  <img src="vacatures.png" alt="Vacatures">
+  
+  <!-- Title bar and image for Over Ons -->
+  <div class="title-bar">Over Ons</div>
+  <img src="over_ons.png" alt="Over Ons">
 </body>
 </html>
